@@ -1,17 +1,20 @@
 //import Accordion from "./Accordion";
-import Accordion from "../../portofolio/werty/Accordion";
-import { accordionData } from "./Utils/content";
+// import Accordion from "../../portofolio/werty/Accordion";
+import Testimonials from "./components/Testimonials";
+// import { accordionDat } from "./Utils/content";
 
 const App = () => {
   return (
     <div>
-      <div className="accordion">
-        {accordionData.map(({ title, content }) => (
+      {/* <div className="accordion">
+        {accordionDat.map(({ title, content }) => (
           <Accordion title={title} content={content} />
+         
         
           
         ))}
-      </div>
+      </div> */}
+      <Testimonials/>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-export const accordionData = -[
+export const accordionDat = -[
     {
         title: "what is HTML",
         content: ""
